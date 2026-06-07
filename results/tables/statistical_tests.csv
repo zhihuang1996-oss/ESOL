@@ -1,0 +1,2 @@
+comparison,delta_RMSE,paired_ttest_p
+best_random_cv_vs_best_scaffold_cv_RMSE,0.15825710043925412,0.03138186237728768

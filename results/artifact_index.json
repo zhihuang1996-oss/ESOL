@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-06-07T13:20:55",
+  "dataset_rows": 1128,
+  "figures": [
+    "ad_coverage_rmse_curve.png",
+    "functional_group_importance_top20.png",
+    "high_error_descriptor_boxes.png",
+    "logs_distribution.png",
+    "pearson_descriptor_correlation.png",
+    "representative_molecules.png",
+    "screening_representative_molecules.png",
+    "spearman_descriptor_correlation.png",
+    "systematic_bias_heatmap.png",
+    "tsne_logs.png",
+    "umap_logs.png",
+    "umap_prediction_error.png",
+    "umap_scaffold_fold.png",
+    "uncertainty_calibration.png"
+  ],
+  "tables": [
+    "applicability_domain_validation.csv",
+    "chemical_space_clusters.csv",
+    "cv_fold_metrics.csv",
+    "descriptor_missing_rates.csv",
+    "functional_group_bias.csv",
+    "high_error_samples.csv",
+    "oof_ensemble_predictions_uncertainty.csv",
+    "representation_ablation.csv",
+    "sar_functional_group_importance.csv",
+    "solubility_bin_density.csv",
+    "statistical_tests.csv",
+    "table1_data_quality_summary.csv",
+    "table2_benchmark_comparison.csv",
+    "uncertainty_calibration.csv",
+    "virtual_screening_local_demo.csv"
+  ]
+}

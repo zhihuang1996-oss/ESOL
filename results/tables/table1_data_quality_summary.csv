@@ -1,0 +1,11 @@
+metric,value
+n_raw,1128.0
+n_valid_molecules,1128.0
+n_unique_raw_smiles,1128.0
+n_unique_canonical_smiles,1117.0
+duplicate_canonical_smiles,11.0
+n_unique_scaffolds,584.0
+logS_mean,-3.05010195035461
+logS_std,2.096441210089345
+logS_min,-11.6
+logS_max,1.58

@@ -1,0 +1,45 @@
+seed: 42
+data_path: data/esol.csv
+target: logS
+smiles_col: smiles
+results_dir: results
+figures_dir: results/figures
+tables_dir: results/tables
+models_dir: results/models
+
+cv:
+  n_splits: 5
+  test_size: 0.20
+  val_size: 0.10
+
+features:
+  ecfp_radius: 2
+  ecfp_bits: 2048
+  rdkit_fp_bits: 2048
+  descriptor_pca_components: 32
+
+models:
+  random_forest:
+    n_estimators: 60
+    min_samples_leaf: 2
+  xgboost:
+    n_estimators: 60
+    max_depth: 3
+    learning_rate: 0.03
+    subsample: 0.9
+    colsample_bytree: 0.9
+  svr:
+    C: 10.0
+    gamma: scale
+  mlp:
+    hidden_layer_sizes: [128]
+    alpha: 0.001
+    max_iter: 120
+
+ad:
+  tanimoto_thresholds: [0.3, 0.4, 0.5]
+  kde_quantile: 0.10
+
+plots:
+  dpi: 220
+  use_fast_umap: true
